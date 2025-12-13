@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/globals.css" />
+    <link rel="stylesheet" href="css/flex.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/modal.css" />
+    <script type="module" src="/index.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="pt-40">
+        <form class="flex justify-center items-center gap-16">
+          <input class="input" type="search" placeholder="Search note..." />
+          <select class="select">
+            <option value="all">ALL</option>
+            <option value="complete">Complete</option>
+            <option value="incomplete">Incomplete</option>
+          </select>
+        </form>
+      </header>
+      <main class="main">
+        <ul class="list flex flex-col gap-16 justify-center"></ul>
+      </main>
+      <footer>
+        <button class="undo hidden">Undo</button>
+        <button class="floating-btn">+</button>
+      </footer>
+    </div>
+  </body>
+</html>

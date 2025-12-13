@@ -1,0 +1,17 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #ffffff;
+  --tertiary-color: gray;
+  --input-placeholder-color: #c3c1e5;
+  --trash-icon-color: red;
+  --undo-btn-background-color: black;
+  --undo-btn-text-color: #ffffff;
+  --undo-btn-text-color-hover: rgba(0, 0, 0, 0.87);
+  --modal-text-color: #ffffff;
+  /* Typography */
+  --font-size-base: 20px;
+}
+.container {
+  max-width: 750px;
+  margin: 0 auto;
+}

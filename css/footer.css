@@ -1,0 +1,38 @@
+.undo {
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  margin-bottom: 20px;
+}
+.undo {
+  background-color: var(--undo-btn-background-color);
+  color: var(--undo-btn-text-color);
+  border: 0;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+.undo:hover {
+  background-color: var(--undo-btn-text-color-hover);
+}
+.floating-btn {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  padding: 12px 16px;
+  border-radius: 50%;
+  background: var(--primary-color);
+  color: white;
+  border: 0;
+  width: 50px;
+  height: 50px;
+  font-size: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.floating-btn:hover {
+  opacity: 0.9;
+}

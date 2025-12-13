@@ -1,0 +1,53 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.modal {
+  background: white;
+  max-width: 450px;
+  margin: 0 auto;
+  border-radius: 16px;
+  padding: 18px 30px;
+  text-align: center;
+  transform: translateY(50%);
+}
+.modal-footer {
+  margin-top: 128px;
+}
+.task-title-field {
+  min-width: 100%;
+  padding: 6px;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+}
+.task-title-field:focus {
+  outline: none;
+  border: 2px solid var(--input-placeholder-color);
+}
+.task-title-field::placeholder {
+  color: var(--input-placeholder-color);
+}
+.modal-header h3 {
+  margin: 0;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.modal-btn {
+  padding: 8px 15px;
+  background: transparent;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.modal-btn:hover {
+  background: var(--primary-color);
+  color: var(--modal-text-color);
+}
